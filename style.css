@@ -1,0 +1,20 @@
+.grid {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	width: 400px;
+	height: 400px;
+	background-color: blue;
+}
+
+.grid div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 90px;
+	height: 90px;
+	background-color: yellow;
+	font-size: 60px;
+	font-weight: bold;
+}
